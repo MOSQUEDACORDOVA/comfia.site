@@ -39,6 +39,17 @@
       .media{
         flex-direction: column;
       }
+
+      @media (orientation : landscape){
+        .app_mobile{
+          min-height: 700px;display: flex;justify-content: center;
+        }
+        .apoo{
+          position: absolute;
+          width: 130% !important;
+        }
+        
+      }
     </style>
 </head>
 
@@ -242,8 +253,8 @@
                 </div>
               </div>
               <div class="col-md-6 col-lg-4 order-3 order-sm-2" data-aos="fade-up" data-aos-delay="0">
-                <div class="app_mobile">
-                  <img class="apoo" src="../../assets/img/app/app.png" />
+                <div class="app_mobile" >
+                  <img class="apoo"  src="../../assets/img/app/app.png" />
                 </div>
               </div>
               <div class="col-md-6 col-lg-4 d-none d-sm-block order-2 order-sm-3">
